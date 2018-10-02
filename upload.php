@@ -1,5 +1,5 @@
 <?php 
-echo 'hi';
+echo 'hi';echo "hello";
 extract($_POST);
 if(isset($submit)){
 	$errors=array();
